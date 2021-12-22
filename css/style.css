@@ -428,3 +428,179 @@ input:focus {
     font-size: 20px;
     line-height: 30px;
 }
+
+.provide {
+    display: flex;
+    flex-direction: column;
+
+    width: 1200px;
+    height: 671px;
+
+    background: url(/images/provide.png);
+}
+
+.provide h2 {
+    width: 296px;
+    height: 54px;
+    margin: 0 auto;
+    margin-top: 76px;
+    margin-bottom: 50px;
+
+    font-family: Actor;
+    font-style: normal;
+    font-weight: normal;
+
+    color: #BBA390;
+    text-align: center;
+    font-size: 46px;
+    line-height: 54px;
+}
+
+.provide-block {
+    display: flex;
+
+    width: 1080px;
+    height: 184px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.provide-one {
+    width: 347px;
+    height: 184px;
+    margin-right: 19.5px;
+}
+
+.provide-two {
+    width: 347px;
+    height: 184px;
+    margin-right: 19.5px;
+}
+
+.provide-three {
+    width: 347px;
+    height: 184px;
+}
+
+.shadow {
+    position: relative;
+
+    background: #051627;
+    box-shadow: 12px 22px 32px rgba(18, 37, 59, 0.15);
+    border-radius: 20px;
+}
+
+.provide p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 18px;
+    line-height: 24px;
+    color: #8CAAC8;
+
+}
+
+.provide-one p {
+    width: 70px;
+    height: 72px;
+    margin: 18px 0 0 40px;
+}
+
+.provide-two p {
+    width: 98px;
+    height: 48px;
+    margin: 18px 0 0 40px;
+}
+
+.provide-three p {
+    width: 70px;
+    height: 48px;
+    margin: 18px 0 0 40px;
+}
+
+.shadow-block {
+    width: 113px;
+    height: 100px;
+    margin: 18px 0 0 234px;
+
+    background: url(/images/shadow.svg);
+    opacity: 0.5;
+}
+
+.provide-one .shadow-block {
+    margin: -6px 0 0 234px;
+}
+
+.provide-one .icon {
+    position: absolute;
+
+    width: 97px;
+    height: 116px;
+    top: 43px;
+    left: 210px;
+
+    background: url(/images/icon-one.svg);
+}
+
+.provide-two .icon {
+    position: absolute;
+
+    width: 106px;
+    height: 97px;
+    top: 56px;
+    left: 208px;
+
+    background: url(/images/icon-two.svg);
+}
+
+.provide-three .icon {
+    position: absolute;
+
+    width: 124px;
+    height: 90px;
+    top: 60px;
+    left: 193px;
+
+    background: url(/images/icon-three.svg);
+}
+
+.apply {
+    display: flex;
+    align-items: center;
+
+    width: 256px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.apply p {
+    width: 182px;
+    height: 30px;
+    margin-right: 8px; 
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.block-arrow {
+    width: 66px;
+    height: 14px;
+
+    cursor: pointer;
+    background: url(/images/arrowTwo.svg) no-repeat center / cover;
+}
+
+.partners {
+    width: 865px;
+    height: 342px;
+    margin: 0 auto;
+
+    background: white;
+}
