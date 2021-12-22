@@ -436,7 +436,7 @@ input:focus {
     width: 1200px;
     height: 671px;
 
-    background: url(/images/provide.png);
+    /* background: url(/images/provideThree.png); */
 }
 
 .provide h2 {
@@ -598,9 +598,247 @@ input:focus {
 }
 
 .partners {
+    display: flex;
+
     width: 865px;
     height: 342px;
     margin: 0 auto;
+    margin-bottom: 194px;
+}
 
-    background: white;
+.buy {
+    width: 243px;
+    height: 271px;
+    margin-top: 41px;
+    margin-right: 229px;
+}
+
+.buy h2 {
+    width: 243px;
+    height: 96px;
+    margin-bottom: 11.5px;
+
+    font-family: Actor;
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.buy p {
+    width: 195px;
+    height: 28px;
+    margin-bottom: 77px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+
+    font-size: 16px;
+    line-height: 28px;
+    color: #8CAAC8;
+}
+
+.buy-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 215px;
+    height: 59px;
+
+    background: #2B8CFC;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.shops {
+    width: 393px;
+    height: 340px;
+}
+
+.shops-one {
+    display: flex;
+
+    width: 393px;
+    height: 220px;
+}
+
+.shops-two {
+    display: flex;
+
+    width: 246px;
+    margin-left: 147px;
+}
+
+.winlee {
+    width: 220px;
+    height: 220px;
+
+    background: #122E4A;
+    box-shadow: 12px 22px 42px rgba(4, 20, 37, 0.25);
+    border-radius: 30px 0px;
+}
+
+.decoo {
+    width: 160px;
+    height: 160px;
+    margin-left: 13px;
+    margin-top: 60px;
+
+    background: #122E4A;
+    box-shadow: 12px 22px 42px rgba(4, 20, 37, 0.25);
+    border-radius: 30px 0px;
+}
+
+.winlee-logo {
+    width: 150px;
+    height: 40px;
+    margin: 72px 0 0 35px;
+
+    background: url(/images/winlee-logo.svg);
+}
+
+.winlee p {
+    width: 150px;
+    height: 20px;
+    margin: 14px 0 0 35px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 14px;
+    line-height: 20px;
+    color: #6485A7;
+}
+
+.decoo-logo {
+    width: 110px;
+    height: 31px;
+    margin: 45px 0 0 25px;
+
+    background: url(/images/decoo-logo.svg);
+}
+
+.decoo p {
+    width: 110px;
+    height: 14px;
+    margin: 10px 0 0 25px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 10px;
+    line-height: 14px;
+    color: #6485A7;
+}
+
+.box {
+    width: 74px;
+    height: 74px;
+
+    background: #122E4A;
+    box-shadow: 12px 22px 42px rgba(4, 20, 37, 0.25);
+}
+
+.box:nth-child(1) {
+    margin: 14px 12px 0 0;
+
+}
+
+.box:nth-child(2) {
+    margin: 30px 12px 0 0;
+}
+
+.box:nth-child(3) {
+    margin: 46px 0 0 0;
+}
+
+footer {
+    display: flex;
+
+    width: 1200px;
+    height: 422px;
+}
+
+.foot-one {
+    width: 466px;
+    height: 422px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    background: linear-gradient(to right, #12253B, #18304D);
+}
+
+.foot-one p {
+    margin-bottom: 20px;
+}
+
+.foot-one p:nth-child(1) {
+    margin-top: 70px;
+}
+
+.foot-two {
+    width: 307px;
+    height: 422px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    background: #18304D;
+}
+
+.foot-two p {
+    margin-bottom: 20px;
+}
+
+.foot-two p:nth-child(1) {
+    margin-top: 70px;
+}
+
+.foot-two p:nth-child(4) {
+    margin-top: 40px;
+}
+
+.foot-three {
+    width: 427px;
+    height: 422px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+    background: linear-gradient(to left, #12253B, #18304D);
+}
+
+.foot-three p {
+    margin-top: 70px;
 }
