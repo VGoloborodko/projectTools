@@ -9,19 +9,19 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <!-- SITE HEADER -->
+        <header id="home">
             <div class="logo-cover">
-                <div class="logo">
-                    <!--logo css-->
-                </div>
+                <div class="logo"></div>
             </div>
-            <div class="menu-bottom">HOME</div>
-            <div class="menu-bottom">PRODUCTS</div>
-            <div class="menu-bottom">COOPERATION</div>
-            <div class="menu-bottom">CONTACTS</div>
+            <div class="menu-bottom"><a href="#home">HOME</a></div>
+            <div class="menu-bottom"><a href="#products">PRODUCTS</a></div>
+            <div class="menu-bottom"><a href="#cooperation">COOPERATION</a></div>
+            <div class="menu-bottom"><a href="#footer">CONTACTS</a></div>
         </header>
+        <!-- BASIC INFORMATION -->
         <main>
-            <div class="materials">
+            <div class="materials" id="products">
                 <div class="block-left">
                     <h2>CONSTRUCTION MATERIALS</h2>
                     <p>We are a dynamically developing company that primarily focuses on the sale of exceptionally high quality goods.</p>
@@ -64,7 +64,7 @@
 
                 </div>
             </div>
-
+            <!-- WE OFFER CONVENIENT DEALER TERMS -->
             <div class="offer">
                 <h2>WE OFFER CONVENIENT DEALER TERMS</h2>
                 <p>More than 500 partners with us</p>
@@ -86,16 +86,19 @@
                         <p>Own catalogs <br>for each type of product</p>
                     </div>
                 </div>
-                <div class="send">
-                    <div class="input">
-                        <input>
+                <!-- SENDING THE FORM -->
+                <form method="post">
+                    <div class="send">
+                        <div class="input">
+                            <input type="text" name="phone" placeholder="Telephone">
+                        </div>
+                        <button type="button" class="send-phone">
+                            <p>Become a dealer</p>
+                        </button>
                     </div>
-                    <div class="send-phone">
-                        <p>Become a dealer</p>
-                    </div>
-                </div>
+                </form>
             </div>
-
+            <!-- WE PROVIDE -->
             <div class="provide">
                 <h2>WE PROVIDE</h2>
                 <div class="provide-block">
@@ -120,8 +123,8 @@
                     <div class="block-arrow"></div>
                 </div>
             </div>
-
-            <div class="partners">
+            <!-- BUY OUR GOODS CAN -->
+            <div class="partners" id="cooperation">
                 <div class="buy">
                     <h2>BUY OUR GOODS CAN</h2>
                     <p>In our stores dealer network</p>
@@ -146,7 +149,8 @@
                 </div>
             </div>
         </main>
-        <footer>
+        <!-- FOOTER -->
+        <footer id="footer">
             <div class="foot-one">
                 <p>GLASS WALLPAPERS</p>
                 <p>PORCELAIN STONEWARE</p>
@@ -165,5 +169,6 @@
             </div>
         </footer>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
