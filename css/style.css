@@ -59,7 +59,17 @@ header {
 .logo {
     width: 201px;
     height: 50px;
-    background: url(/images/Logo.svg) no-repeat center / cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Actor;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    color: #E7B894;
+    /* background: url(/images/Logo.svg) no-repeat center / cover; */
 }
 
 .menu-bottom {
